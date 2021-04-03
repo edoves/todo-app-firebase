@@ -15,3 +15,8 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+.wrap {
+  width: 80%;
+  margin: auto;
+}
