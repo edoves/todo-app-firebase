@@ -1,0 +1,16 @@
+.todo {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.container {
+  background: #fff;
+  width: inherit;
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
