@@ -1,9 +1,11 @@
 import React from "react";
 import "./todos.css";
-const Todos = () => {
+const Todos = ({ todoItem, id }) => {
+  const { todo } = todoItem;
+
   return (
     <li className="bounceIn">
-      <span className="text">sfafsa</span>
+      <span className="text">{todo}</span>
       <div className="options">
         <span>
           <i className="fa fa-check"></i>
