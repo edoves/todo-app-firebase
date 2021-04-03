@@ -1,9 +1,10 @@
 import React from "react";
+import "./app.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="todo">
+      <div className="container"></div>
     </div>
   );
 };
